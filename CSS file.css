@@ -1,0 +1,934 @@
+.page-wrap {
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: auto;
+    min-width: none;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.fab {
+    background: #5f5f5f;
+}
+
+.fas {
+    color: white;
+}
+
+.far {
+    color: white;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+.fa-check-circle {
+    color: #6ec1e4;
+}
+
+.fa-check-circle:hover {
+    color: #3df03d;
+}
+
+.fa-facebook {
+    font-family: "Font Awesome 5 Brands";
+    color: #fff;
+    width: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.fa-twitter {
+    font-family: "Font Awesome 5 Brands";
+    color: white;
+    width: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.fa-youtube {
+    font-family: "Font Awesome 5 Brands";
+    color: white;
+    width: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.fa-linkedin {
+    font-family: "Font Awesome 5 Brands";
+    color: white;
+    width: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.nav1 {
+    background-color: #070751;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.nav1 a {
+    color: rgb(204, 201, 201);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav1 a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.nav2 {
+    padding-left: 50px;
+    background-color: #384271;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav2 a {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.nav2 a:hover {
+    color: #e0e0e0;
+}
+
+.mainlogo {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-links {
+    height: 100%;
+    margin: 0px;
+}
+
+.navbar-links ul {
+    margin: 0px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.navbar-links li:hover {
+    color: #16169e;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    padding: 5px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(0, 1, 78);
+    border-radius: 10px;
+}
+
+.becomeclient_btn {
+    color: #fff;
+    background-color: #182368;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    padding: 12px;
+    border-radius: 3px;
+    border-style: solid;
+    border: 0;
+}
+
+.becomeclient_btn:hover {
+    background-color: #197006eb;
+    transition: all 0.3s;
+}
+
+.bookacall_btn {
+    fill: #fff;
+    color: #fff;
+    background-color: #777777;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    padding: 12px;
+    border-radius: 3px;
+    border: 0;
+}
+
+.bookacall_btn:hover {
+    background-color: #20ad00eb;
+    transition: all 0.3s;
+}
+
+.headingtext {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 60px;
+    margin: auto 15% auto 15%;
+}
+
+.centered {
+    margin-top: 10%;
+    text-align: center;
+    max-width: 650px;
+    position: relative;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover {
+    background-image: linear-gradient( 90deg, rgba(0, 0, 0, 0) 22%, rgba(0, 0, 0, 0.836) 57%), url("images/Nomad-Entrepreneur.jpg");
+    background-repeat: no-repeat;
+    height: 750px;
+    color: white;
+    padding: 20px;
+    align-content: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.workwithus_btn {
+    background-color: #61ce70;
+    border-style: solid;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #fff;
+    fill: #fff;
+    border: 0;
+    width: auto;
+    margin-right: 8%;
+}
+
+.workwithus_btn:hover {
+    background-color: #12476aa1;
+    transition: all 0.3s;
+}
+
+.contactus_btn {
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    fill: #fff;
+    color: #fff;
+    background-color: rgba(21, 65, 110, 0);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    border-radius: 0px;
+    font-size: 14px;
+    padding: 20px 40px;
+    width: auto;
+}
+
+.contactus_btn:hover {
+    background-color: #15416e;
+    transition: all 0.3s;
+}
+
+.becomeclient_btn {
+    color: #fff;
+    background-color: #182368;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    padding: 12px;
+    border-radius: 3px;
+    border-style: solid;
+    border: 0;
+}
+
+.becomeclient_btn:hover {
+    background-color: #197006eb;
+    transition: all 0.3s;
+}
+
+.bookacall_btn {
+    fill: #fff;
+    color: #fff;
+    background-color: #777777;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    padding: 12px;
+    border-radius: 3px;
+    border: 0;
+}
+
+.bookacall_btn:hover {
+    background-color: #20ad00eb;
+    transition: all 0.3s;
+}
+
+.mainimage {
+    width: 100%;
+}
+
+.h1 {
+    color: #000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+}
+
+.p {
+    font-size: 14px;
+    color: #000;
+    font-family: "Montserrat", Sans-serif;
+    line-height: 24px;
+}
+
+.readmore {
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.readmore_btn {
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    fill: #15416e;
+    color: #15416e;
+    background-color: rgba(21, 65, 110, 0);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+.readmore_btn:hover {
+    color: #fff;
+    background-color: #15416e;
+    transition: all 0.3s;
+}
+
+.row2 {
+    color: #fff;
+    display: flex;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.column2 {
+    align-content: center;
+    padding: 10px;
+    display: block;
+    margin: auto 5% auto 5%;
+    position: relative;
+}
+
+.row3 {
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
+}
+
+.column3 {
+    text-align: center;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 100%;
+}
+
+.row4 {
+    display: flex;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column4 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: max-content;
+}
+
+.row5 {
+    display: flex;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    max-width: 1100px;
+}
+
+.column5 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    display: block;
+    max-width: 800px;
+    height: 300px;
+    position: relative;
+    background: #fffffff1;
+    margin: auto;
+}
+
+
+/* Slides */
+
+.mySlides {
+    display: none;
+    padding: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -50px;
+    padding: 16px;
+    color: rgba(136, 136, 136, 0.205);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 1px;
+    background: rgb(255, 255, 255);
+    width: auto;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    margin: 0 2px;
+    background-color: rgba(122, 122, 122, 0.315);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+/* Add a background color to the active dot/circle */
+
+.active,
+.dot:hover {
+    background-color: #ffffff;
+}
+
+
+/* Add an italic font style to all quotes */
+
+.p2 {
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.651);
+}
+
+
+/* Add a blue color to the author */
+
+.author {
+    font-family: sans-serif;
+    color: rgba(0, 1, 2, 0.664);
+    font-style: bold;
+}
+
+.position {
+    font-family: sans-serif;
+    color: rgb(1, 162, 211);
+}
+
+.profile-pic {
+    border-radius: 999px;
+    width: 50px;
+    height: 50px;
+}
+
+.grid {
+    padding-top: 10px;
+    margin: 0%;
+    line-height: 0%;
+}
+
+.fixed-bg {
+    background-image: linear-gradient( 90deg, rgba(0, 0, 0, 0.36) 100%, rgba(0, 0, 0, 0.36) 100%), url("images/adult-businessman-chair-845451.jpg");
+    min-height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-weight: 800px;
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+
+.centered2 {
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    position: relative;
+}
+
+.tick_green {
+    width: 25px;
+    height: 25px;
+    background: url("images/1.jpg") no-repeat;
+    margin: auto;
+}
+
+.tick_green:hover {
+    width: 25px;
+    height: 25px;
+    background: url("images/2.jpg") no-repeat;
+    margin: auto;
+}
+
+.row6 {
+    display: flex;
+    text-align: left;
+    max-width: 1100px;
+    padding-bottom: 80px;
+    margin: auto;
+    align-content: center;
+}
+
+.column6 {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column6 a {
+    color: #1c1d4b;
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+
+.readmore_green {
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: #61ce70;
+    border-color: #61ce70;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-decoration: none;
+    padding: 12px 24px;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-style: solid;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.businesstext {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1c1d4b;
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.businesstext a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #1b4471;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    align-content: center;
+}
+
+.footer a {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+}
+
+.textbox {
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.sub_btn {
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-color: #ccc #ccc #bbb;
+    border-radius: 3px;
+    background: #e6e6e6;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1;
+    padding: 0.6em 1em 0.4em;
+}
+
+.footer2 {
+    background-color: #15416e;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+}
+
+.footer2 a {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+}
+
+.row7 {
+    display: flex;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    max-width: 1100px;
+}
+
+.column7 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column7 a {
+    color: rgba(255, 255, 255, 0.8);
+    padding-left: 10px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.column7 a:hover {
+    color: #fff;
+}
+
+.row8 {
+    display: flex;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    max-width: auto;
+}
+
+.column8 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1000px) {
+    .navbar-links li a {
+        color: #1c1d4b;
+        padding: 2;
+        font-size: 14px;
+        text-align: center;
+    }
+    .navbar-links li {
+        background-color: #ffffff;
+        padding-bottom: 12px;
+    }
+}
+
+@media (max-width: 950px) {
+    .mainlogo {
+        display: flex;
+    }
+    .nav1 {
+        display: none;
+    }
+    .nav2 {
+        display: none;
+    }
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links li {
+        background-color: #ffffff;
+        text-align: center;
+        padding-bottom: 12px;
+    }
+    .navbar-links li a {
+        color: #1c1d4b;
+        padding: 0.5rem 1rem;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+    .row2,
+    .row3,
+    .row4,
+    .row5,
+    .row6,
+    .row7 {
+        flex-direction: column;
+    }
+    .column6 {
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .column7 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .column5 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 90%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .column4 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 90%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .h1 {
+        color: #000;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 40px;
+        text-align: center;
+    }
+    .p {
+        font-size: 12px;
+        color: #000;
+        font-family: "Montserrat", Sans-serif;
+        line-height: 24px;
+    }
+    .fixed-bg {
+        background-image: linear-gradient( 90deg, rgba(0, 0, 0, 0.36) 100%, rgba(0, 0, 0, 0.36) 100%), url("images/adult-businessman-chair-845451.jpg");
+        width: 100%;
+        height: 100px;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        font-weight: 400px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .centered2 {
+        align-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 100px;
+        position: relative;
+    }
+    .column2 {
+        align-content: center;
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .centered {
+        margin-top: 2%;
+        max-width: 600px;
+        position: relative;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cover {
+        background-image: linear-gradient( 90deg, rgba(0, 0, 0, 0) 22%, rgba(0, 0, 0, 0.836) 57%), url("images/Nomad-Entrepreneur.jpg");
+        background-repeat: no-repeat;
+        height: 550px;
+        color: white;
+        padding: 20px;
+        align-content: left;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .headingtext {
+        color: white;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 35px;
+        padding-bottom: 5px;
+        margin: auto 10% auto 10%;
+    }
+    .workwithus_btn {
+        background-color: #61ce70;
+        border-style: solid;
+        font-size: 15px;
+        padding: 20px 30px;
+        border-radius: 5px;
+        color: #fff;
+        fill: #fff;
+        border: 0;
+        width: auto;
+        margin-right: 8%;
+    }
+    .contactus_btn {
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        fill: #fff;
+        color: #fff;
+        background-color: rgba(21, 65, 110, 0);
+        border-style: solid;
+        border-width: 2px;
+        border-color: #fff;
+        border-radius: 0px;
+        font-size: 14px;
+        padding: 20px 40px;
+        width: auto;
+    }
+    .slideshow-container {
+        display: block;
+        max-width: 800px;
+        height: 350px;
+        position: relative;
+        background: #fffffff1;
+        margin: auto;
+    }
+}
